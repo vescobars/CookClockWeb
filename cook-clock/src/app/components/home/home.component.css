@@ -1,0 +1,64 @@
+.core{
+    padding-top: 20vh;
+    padding-left: 30vw;
+}
+
+.clock{
+    font-size: 75px;
+    color: #443333;
+}
+
+.btn{
+    margin: 8vh;
+}
+
+/* CSS in your component's stylesheet */
+.custom-button {
+    width: 150px; /* Fixed button width */
+    height: 60px; /* Fixed button height */
+    background: url('../../../assets/images/GreenButton.svg') no-repeat;
+    background-size: contain; /* Adjust as needed to fit your SVG */
+    color: #FFF; /* Text color */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.custom-button:hover {
+    background: url('../../../assets/images/GreenButtonHover.svg') no-repeat;
+    background-size: contain; /* Adjust as needed to fit your SVG */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+
+
+
+
+.container-fluid {
+    color: #443333;
+    background-color: #FFFCEB;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../../../assets/fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

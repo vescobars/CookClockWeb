@@ -7,18 +7,9 @@ import { RecipeSummaryComponent } from './components/recipe-summary/recipe-summa
 
 const routes: Routes = [
   {
-    path: '**',
-    redirectTo: 'home'
-  },
-  {
     path: 'home',
     component: HomeComponent,
     pathMatch: 'full'  
-  },
-  {
-    path: 'recipes',
-    component: RecipesComponent,
-    pathMatch: 'full'
   },
   {
     path: 'recipe',
@@ -26,9 +17,18 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'recipes',
+    component: RecipesComponent,
+    pathMatch: 'full'
+  },
+  {
     path: 'summary',
     component: RecipeSummaryComponent,
     pathMatch: 'full'
+  },
+  {
+    path: '**',
+    redirectTo: 'home'
   }
 ];
 
