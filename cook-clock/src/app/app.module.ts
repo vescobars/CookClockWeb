@@ -8,6 +8,9 @@ import { RecipesComponent } from './components/recipes/recipes.component';
 import { RecipeSummaryComponent } from './components/recipe-summary/recipe-summary.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { RecipeCardComponent } from './components/recipe-card/recipe-card.component';
+import { FormsModule } from '@angular/forms';
+import { AlarmComponent } from './components/alarm/alarm.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { HomeComponent } from './components/home/home.component';
     RecipesComponent,
     RecipeSummaryComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    RecipeCardComponent,
+    AlarmComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

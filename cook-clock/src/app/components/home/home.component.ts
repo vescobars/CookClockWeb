@@ -11,7 +11,7 @@ export class HomeComponent {
     constructor(private router: Router) {}
 
     redirectToRecipe() {
-      this.router.navigate(["recipe"]);
+      this.router.navigate(["recipes"]);
     }
     
 

@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Components
+/src/app/components/recipe/*
+/src/app/components/alarm/*
+/src/app/components/recipes/*
+/src/app/components/recipe-card/*

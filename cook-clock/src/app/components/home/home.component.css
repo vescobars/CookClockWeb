@@ -13,10 +13,10 @@
 }
 
 /* CSS in your component's stylesheet */
-.custom-button {
-    width: 150px; /* Fixed button width */
+.custom-button-SignUp {
+    width: 120px; /* Fixed button width */
     height: 60px; /* Fixed button height */
-    background: url('../../../assets/images/GreenButton.svg') no-repeat;
+    background: url('../../../assets/images/SignUpBtn.png') no-repeat;
     background-size: contain; /* Adjust as needed to fit your SVG */
     color: #FFF; /* Text color */
     border: none;
@@ -27,8 +27,28 @@
     transition: background-color 0.3s; /* Smooth background color transition on hover */
 }
 
-.custom-button:hover {
-    background: url('../../../assets/images/GreenButtonHover.svg') no-repeat;
+.custom-button-SignUp:hover {
+    background: url('../../../assets/images/SignUpHoverBtn.png') no-repeat;
+    background-size: contain; /* Adjust as needed to fit your SVG */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.custom-button-Login {
+    width: 120px; /* Fixed button width */
+    height: 60px; /* Fixed button height */
+    background: url('../../../assets/images/LoginBtn.png') no-repeat;
+    background-size: contain; /* Adjust as needed to fit your SVG */
+    color: #FFF; /* Text color */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.custom-button-Login:hover {
+    background: url('../../../assets/images/LoginHoverBtn.png') no-repeat;
     background-size: contain; /* Adjust as needed to fit your SVG */
     transition: background-color 0.3s; /* Smooth background color transition on hover */
 }
