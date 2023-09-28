@@ -1,0 +1,27 @@
+.card{
+    
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 3vh;
+}
+
+
+/* CSS in your component's stylesheet */
+.custom-button {
+    background: url('../../../assets/images/VerRecetaBtn.svg') no-repeat;
+    background-size: contain; /* Adjust as needed to fit your SVG */
+    padding: 20px 40px; /* Adjust padding for your button size */
+    color: #FFF; /* Text color */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-button:hover {
+    /* Add hover styles if desired */
+    background: url('../../../assets/images/VerRecetaHoverBtn.svg') no-repeat;
+    background-size: contain; /* Adjust as needed to fit your SVG */
+    border: none;
+}
+
+
