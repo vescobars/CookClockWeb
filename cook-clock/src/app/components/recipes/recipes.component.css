@@ -1,0 +1,33 @@
+/* styles.css or your component's specific stylesheet */
+
+.card-column {
+    padding-left: 1vw;   /* Half of 2vw to ensure total separation is 2vw */
+    padding-right: 1vw;
+}
+
+.card-row {
+    margin-bottom: 3vh; /* Separation between rows */
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../../../assets/fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

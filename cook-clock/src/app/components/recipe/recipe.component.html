@@ -1,0 +1,92 @@
+<app-navbar></app-navbar>
+
+<div class="container" (window:scroll)="onScroll($event)">
+    <div class="content">
+      <div>
+        <img src="../../../assets/images/ArrowRightBtn.png" alt="" style="text-align: right; height:20px">
+      </div>
+      <div class="img-title" style="text-align: center;">
+        <img src="../../../assets/images/pasta.png" alt="">
+        <h2 style="font-family: Merriweather;margin-bottom: 1vh;">Espaguetis con boloñesa</h2>
+        
+      </div>
+      <div>
+        <h3 style="font-family: Merriweather;font-size: larger;">Descipción</h3>
+        <p style="font-family: Jost">
+          Los espaguetis con salsa de queso, pollo y bacon son una combinación perfecta de sabores y texturas que deleitarán tu paladar. La suavidad de los espaguetis al dente se complementa con una salsa cremosa y rica en queso, mientras que el pollo aporta una textura tierna y jugosa. El bacon, por su parte, añade un toque crujiente y salado que eleva el plato a otro nivel.
+        </p>
+        <h3 style="font-family: Merriweather;font-size: larger;">Ingredientes</h3>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Espaguetis <span>500gr</span></label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Mantequilla <span>500gr</span></label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Bacon <span>500gr</span></label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Tomate <span>500gr</span></label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Ajo <span>500gr</span></label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Leche <span>500gr</span></label><br>        
+      </div>
+      <div style="text-align: center; margin-top: 5vh;">
+        <button class="custom-button-back"></button>
+        <button class="custom-button-continue"></button>
+      </div>
+    </div>
+</div>
+
+<div class="alarm-content" style="margin-top: 3vh;">
+  
+  <div class="alarm-column">
+    <h3 class="stage" >Etapa 1: Preparación</h3>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+  </div>
+
+  <div class="alarm-column">
+    <h3 class="stage">Etapa 2: Salsa</h3>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+  </div>
+
+  <div class="alarm-column">
+    <h3 class="stage">Etapa 3: Pasta</h3>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+  </div>
+
+  <div class="alarm-column">
+    <h3 class="stage">Etapa 4: Platado</h3>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+    <div class="alarm-row">
+      <app-alarm></app-alarm>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,172 @@
+/* sidebar.component.css */
+#sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    background-color: #f8e9ae;
+    transition: all 0.3s;
+    padding-top: 20px;
+  }
+
+  .nav{
+    width:120vw;
+  }
+  
+  #sidebar.active {
+    left: 0;
+  }
+  
+  #sidebar h3 {
+    background-color: #f8e9ae;
+    padding: 10px;
+  }
+  
+  #sidebar ul li {
+    padding: 10px;
+  }
+  
+  body {
+    position: absolute;
+    overflow-x: hidden;
+    background-color: #f8e9ae;
+}
+
+body,
+html { height: 100%;}
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus {background-color: transparent;}
+
+.container {
+  height: 100%; /* or any height you need */
+  overflow-y: scroll;
+  margin: 0;
+  padding:0;
+}
+
+.content{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.container {
+  list-style-type: none;
+  
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f8e9ae;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.alarm-content{
+  width: 75%;
+  margin-left: 25%;
+}
+
+.img-title{
+  margin-top: 5vh;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #f8e9ae;
+  color: white;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../../../assets/fonts/Merriweather-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../../../assets/fonts/Jost-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.custom-button-continue {
+  width: 120px; /* Fixed button width */
+  height: 60px; /* Fixed button height */
+  background: url('../../../assets/images/ComenzarBtn.png') no-repeat;
+  background-size: contain; /* Adjust as needed to fit your SVG */
+  color: #FFF; /* Text color */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px; /* Adjust the font size */
+  font-weight: bold;
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.custom-button-back {
+  width: 120px; /* Fixed button width */
+  height: 60px; /* Fixed button height */
+  background: url('../../../assets/images/BackBtn.png') no-repeat;
+  background-size: contain; /* Adjust as needed to fit your SVG */
+  color: #FFF; /* Text color */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px; /* Adjust the font size */
+  font-weight: bold;
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+
+  .alarm-content {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    gap: 20px; /* Adjust spacing between columns */
+  }
+  
+  .alarm-column {
+    flex: 1; /* Distribute columns evenly */
+    display: grid;
+    grid-template-rows: repeat(3, auto); /* Three rows per column */
+    gap: 10px; /* Adjust spacing between rows */
+  }
+  
+  .alarm-row {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+  }
+  
+
+  .stage{
+    margin-bottom:2vh; 
+    margin-left: 2vw;
+  }
+
+  @font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
