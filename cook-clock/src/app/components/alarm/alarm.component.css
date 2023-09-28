@@ -1,0 +1,80 @@
+.rounded-rectangle {
+    background-color: #f0f0f0;
+    border: 2px solid #1a0707;
+    border-radius: 10px;
+    text-align: center;
+    width: 15vw;
+    margin: 1vw;
+    padding: 1vw;
+}
+  
+.play-button {
+    margin-top: 20px;
+}
+  
+.btn{
+    padding: 0;
+    border: none;
+    background: none;
+    height: 10px;
+    margin-left:5px ;
+}
+
+.play-button button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+  
+.text-at-bottom {
+    margin-top: 20px;
+    display: flex;  /* Use Flexbox to create a row layout */
+    justify-content: space-between;  /* Distribute the content evenly from left to right */
+}
+  
+.left-info {
+    text-align: left;
+    flex: 1;  /* Allow the element to grow and take available space */
+}
+
+.right-details {
+    text-align: right;
+    flex: 1;  /* Allow the element to grow and take available space */
+    display: inline-flex;  /* Create a row layout for "Details" text and the image */
+    align-items: right;   /* Center the items vertically */
+}
+
+.details-icon {
+    margin-left: 5px;  /* Add spacing between the "Details" text and the image */
+    width: 20px;  /* Sample width; adjust according to your image */
+    height: auto; 
+}
+
+.custom-button-play {
+    width: 120px;
+    height: 60px;
+    background: url('../../../assets/images/PlayBtn.png') no-repeat;
+    background-size: contain;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../assets/fonts/Merriweather-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
